@@ -9,5 +9,11 @@ public class Tester{
     System.out.println(justin.getBalance());
     System.out.println(shmerp.deposit(-0.1));
     System.out.println(shmerp.getBalance());
+    System.out.println(justin.withdraw(0.23));
+    System.out.println(justin.getBalance());
+    System.out.println(justin.withdraw(100));
+    System.out.println(justin.getBalance());
+    System.out.println(shmerp.withdraw(-1));
+    System.out.println(shmerp.getBalance());
   }
 }
