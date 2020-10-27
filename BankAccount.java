@@ -22,7 +22,9 @@ public class BankAccount{
     return true;
   }
   public boolean withdraw(double amount){
-    return false;
+    if(amount<0 || amount>balance) return false;
+    balance-=amount;
+    return true;
   }
   public String toString(){
     return "String";
