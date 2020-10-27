@@ -2,6 +2,7 @@ public class Tester{
   public static void main(String[] args){
     BankAccount justin = new BankAccount(999,"pass");
     BankAccount shmerp = new BankAccount(123,"shmerp4life");
+    BankAccount anubis = new BankAccount(001,"anubis");
     System.out.println(justin.getBalance());
     System.out.println(justin.getAccountID());
     justin.setPassword("newPass");
@@ -15,5 +16,8 @@ public class Tester{
     System.out.println(justin.getBalance());
     System.out.println(shmerp.withdraw(-1));
     System.out.println(shmerp.getBalance());
+    System.out.println(justin.toString());
+    System.out.println(shmerp.toString());
+    System.out.println(anubis.toString());
   }
 }
