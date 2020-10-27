@@ -16,4 +16,15 @@ public class BankAccount{
   public void setPassword(String p){
     password = p;
   }
+  public boolean deposit(double amount){
+    if(amount<0) return false;
+    balance+=amount;
+    return true;
+  }
+  public boolean withdraw(double amount){
+    return false;
+  }
+  public String toString(){
+    return "String";
+  }
 }
