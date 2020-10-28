@@ -19,5 +19,12 @@ public class Tester{
     System.out.println(justin.toString());
     System.out.println(shmerp.toString());
     System.out.println(anubis.toString());
+//    System.out.println(justin.authenticate("pass"));
+    System.out.println(justin.transferTo(shmerp,1,"pass"));
+    System.out.println(justin.toString());
+    System.out.println(shmerp.toString());
+    System.out.println(justin.transferTo(shmerp,1,"newPass"));
+    System.out.println(justin.toString());
+    System.out.println(shmerp.toString());
   }
 }
